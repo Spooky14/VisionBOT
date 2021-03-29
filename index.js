@@ -67,6 +67,6 @@ bot.on('message', message => {
 
   bot.on('message', message => {
     if (message.content === 'Qui est ton créateur') {
-      message.channel.send(`Le talenteux <@511230134347497492> bien sur !`);
+      message.channel.send(`Le talenteux <@511230134347497492> bien sur`);
     }
   });
